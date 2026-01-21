@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDM.Linq", "SDM.Linq\SDM.Linq.csproj", "{93483482-BC27-36CB-B504-485A59018D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDM.LinqTests", "SDM.LinqTests\SDM.LinqTests.csproj", "{1655053C-0541-8AD6-0FD2-69A7B3AB4EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93483482-BC27-36CB-B504-485A59018D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93483482-BC27-36CB-B504-485A59018D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93483482-BC27-36CB-B504-485A59018D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93483482-BC27-36CB-B504-485A59018D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1655053C-0541-8AD6-0FD2-69A7B3AB4EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1655053C-0541-8AD6-0FD2-69A7B3AB4EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1655053C-0541-8AD6-0FD2-69A7B3AB4EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1655053C-0541-8AD6-0FD2-69A7B3AB4EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA9D0660-1BAB-4BCF-AF9D-F7D7187A810B}
+	EndGlobalSection
+EndGlobal
