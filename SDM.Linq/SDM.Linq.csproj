@@ -8,7 +8,7 @@
 		<Nullable>disable</Nullable>
 		<AssemblyName>Skyline.DataMiner.SDM.Linq</AssemblyName>
 		<RootNamespace>Skyline.DataMiner.SDM.Linq</RootNamespace>
-		<Version>0.3.0-B002</Version>
+		<Version>1.0.0-B001</Version>
 		<PackageTags>Skyline;DataMiner</PackageTags>
 		<PackageProjectUrl>https://skyline.be</PackageProjectUrl>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -31,7 +31,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Skyline.DataMiner.Dev.Utils.SDM.Abstractions" Version="0.3.0-B016" />
+		<PackageReference Include="Skyline.DataMiner.Dev.Utils.SDM.Abstractions" Version="1.0.1" />
 	</ItemGroup>
 
 	<!-- Can be used to set the location of your local nuget store to copy to -->
