@@ -7,6 +7,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDM.Linq", "SDM.Linq\SDM.Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDM.LinqTests", "SDM.LinqTests\SDM.LinqTests.csproj", "{1655053C-0541-8AD6-0FD2-69A7B3AB4EF2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		allowed_words.dic = allowed_words.dic
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{69812D90-455D-452F-BC31-51ACA8628913}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CODEOWNERS = .github\CODEOWNERS
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{6A29F7AD-26F0-441D-B379-D42079F35340}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\DataMiner CICD Internal Nuget Solution.yml = .github\workflows\DataMiner CICD Internal Nuget Solution.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +43,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69812D90-455D-452F-BC31-51ACA8628913} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6A29F7AD-26F0-441D-B379-D42079F35340} = {69812D90-455D-452F-BC31-51ACA8628913}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA9D0660-1BAB-4BCF-AF9D-F7D7187A810B}
